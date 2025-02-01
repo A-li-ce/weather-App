@@ -5,12 +5,11 @@
     font-family: cursive;
 }
 
-/* html, body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-} */
+}
 
 body {
     background: url('clouds-8353592_1280.jpg') no-repeat center center/cover;
@@ -32,6 +31,9 @@ h1{
     display: flex;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(19px);
+    align-items: center;
+
+    margin: auto 10px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
