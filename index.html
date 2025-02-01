@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="scattered-thunderstorms_1959321.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- <h1>Weather DashBoard</h1> -->
+    <div class="container">
+      <div class="weather-input">
+        <h1>Weather APP</h1>
+        <input
+          type="text"
+          class="city-input"
+          placeholder=" E.g., New York, London"
+        />
+        <button class="search-btn">Search</button>
+
+        <div class="seperator"></div>
+
+        <button class="location-btn">Use Current Location</button>
+      </div>
+
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>______ ( _____ )</h2>
+            <h4>Temp: __ C</h4>
+            <h4>Wind: __ M/S</h4>
+            <h4>Humidity: __%</h4>
+          </div>
+        </div>
+
+        <div class="days_forecast">
+          <h2>5-Days Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>( _____ )</h3>
+              <!-- <h5>___</h5> -->
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="weahter-img"
+              />
+              <h4>Temp: __ C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>( _____ )</h3>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="weahter-img"
+              />
+              <h4>Temp: __ C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>( _____ )</h3>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="weahter-img"
+              />
+              <h4>Temp: __ C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>( _____ )</h3>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="weahter-img"
+              />
+              <h4>Temp: __ C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h3>( _____ )</h3>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="weahter-img"
+              />
+              <h4>Temp: __ C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
